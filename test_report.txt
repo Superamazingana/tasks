@@ -5,19 +5,271 @@
 Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+PASS src/arrays.test.ts
+  ● Console
+
+    console.log
+      [ 1, 3 ]
+
+      at bookEndList (src/arrays.ts:17:13)
+
+    console.log
+      [ 100, 200 ]
+
+      at bookEndList (src/arrays.ts:17:13)
+
+    console.log
+      [ 5, 5 ]
+
+      at bookEndList (src/arrays.ts:17:13)
+
+    console.log
+      []
+
+      at bookEndList (src/arrays.ts:17:13)
+
+    console.log
+      [ 100, 3 ]
+
+      at bookEndList (src/arrays.ts:17:13)
+
+    console.log
+      [ -100, 200 ]
+
+      at bookEndList (src/arrays.ts:17:13)
+
+    console.log
+      [ 3, 6, 9 ]
+
+      at tripleNumbers (src/arrays.ts:29:13)
+
+    console.log
+      [ 300, 900, 600 ]
+
+      at tripleNumbers (src/arrays.ts:29:13)
+
+    console.log
+      [ 15 ]
+
+      at tripleNumbers (src/arrays.ts:29:13)
+
+    console.log
+      []
+
+      at tripleNumbers (src/arrays.ts:29:13)
+
+    console.log
+      [ 300, 597, 3, -15, 21, 9 ]
+
+      at tripleNumbers (src/arrays.ts:29:13)
+
+    console.log
+      [ -300, -600, 300, 600 ]
+
+      at tripleNumbers (src/arrays.ts:29:13)
+
+    console.log
+      [ 1, 2, 3 ]
+
+      at stringsToIntegers (src/arrays.ts:43:13)
+
+    console.log
+      [ 100, 200, 300 ]
+
+      at stringsToIntegers (src/arrays.ts:43:13)
+
+    console.log
+      [ 5 ]
+
+      at stringsToIntegers (src/arrays.ts:43:13)
+
+    console.log
+      []
+
+      at stringsToIntegers (src/arrays.ts:43:13)
+
+    console.log
+      [ 100, 0, 27, 0 ]
+
+      at stringsToIntegers (src/arrays.ts:43:13)
+
+    console.log
+      [ -1, 0, 1, 0 ]
+
+      at stringsToIntegers (src/arrays.ts:43:13)
+
+    console.log
+      [ 0, 0, 0 ]
+
+      at stringsToIntegers (src/arrays.ts:43:13)
+
+    console.log
+      [ 1, 2, 3 ]
+
+      at stringsToIntegers (src/arrays.ts:43:13)
+
+    console.log
+      [ 1, 2, 3 ]
+
+      at removeDollars (src/arrays.ts:61:13)
+
+    console.log
+      [ 100, 200, 300, 400 ]
+
+      at stringsToIntegers (src/arrays.ts:43:13)
+
+    console.log
+      [ 100, 200, 300, 400 ]
+
+      at removeDollars (src/arrays.ts:61:13)
+
+    console.log
+      [ 5 ]
+
+      at stringsToIntegers (src/arrays.ts:43:13)
+
+    console.log
+      [ 5 ]
+
+      at removeDollars (src/arrays.ts:61:13)
+
+    console.log
+      [ 0 ]
+
+      at stringsToIntegers (src/arrays.ts:43:13)
+
+    console.log
+      [ 0 ]
+
+      at removeDollars (src/arrays.ts:61:13)
+
+    console.log
+      [ 100, 200, 300, 400 ]
+
+      at stringsToIntegers (src/arrays.ts:43:13)
+
+    console.log
+      [ 100, 200, 300, 400 ]
+
+      at removeDollars (src/arrays.ts:61:13)
+
+    console.log
+      []
+
+      at stringsToIntegers (src/arrays.ts:43:13)
+
+    console.log
+      []
+
+      at removeDollars (src/arrays.ts:61:13)
+
+    console.log
+      [ 100, 0, 7, 233, 0, 0 ]
+
+      at stringsToIntegers (src/arrays.ts:43:13)
+
+    console.log
+      [ 100, 0, 7, 233, 0, 0 ]
+
+      at removeDollars (src/arrays.ts:61:13)
+
+    console.log
+      [ 0, 0, 0 ]
+
+      at stringsToIntegers (src/arrays.ts:43:13)
+
+    console.log
+      [ 0, 0, 0 ]
+
+      at removeDollars (src/arrays.ts:61:13)
+
+    console.log
+      [ 'Hello', 'you', 'are', 'GREAT!' ]
+
+      at shoutIfExclaiming (src/arrays.ts:78:13)
+
+    console.log
+      [ 'OHO!', 'OHO!', 'OHO!', 'OHO!', 'OHO!' ]
+
+      at shoutIfExclaiming (src/arrays.ts:78:13)
+
+    console.log
+      [ 'Lo', 'HIGH!' ]
+
+      at shoutIfExclaiming (src/arrays.ts:78:13)
+
+    console.log
+      []
+
+      at shoutIfExclaiming (src/arrays.ts:78:13)
+
+    console.log
+      [ 'THIS ONE IS VERY LONG!' ]
+
+      at shoutIfExclaiming (src/arrays.ts:78:13)
+
+    console.log
+      [ 'No', 'Caps', 'here.' ]
+
+      at shoutIfExclaiming (src/arrays.ts:78:13)
+
+    console.log
+      5
+
+      at countShortWords (src/arrays.ts:89:13)
+
+    console.log
+      3
+
+      at countShortWords (src/arrays.ts:89:13)
+
+    console.log
+      0
+
+      at countShortWords (src/arrays.ts:89:13)
+
+    console.log
+      0
+
+      at countShortWords (src/arrays.ts:89:13)
+
+    console.log
+      0
+
+      at countShortWords (src/arrays.ts:89:13)
+
+    console.log
+      4
+
+      at countShortWords (src/arrays.ts:89:13)
+
+    console.log
+      [
+        100, 199, 1, -5,
+        300,   7, 3
+      ]
+
+      at injectPositive (src/arrays.ts:161:13)
+
+    console.log
+      [ -100, 0, -200, 100, 200 ]
+
+      at injectPositive (src/arrays.ts:161:13)
+
 PASS src/functions.test.ts
 PASS src/text.test.tsx
 PASS src/App.test.tsx
 --------------|---------|----------|---------|---------|-------------------
 File          | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 --------------|---------|----------|---------|---------|-------------------
-All files     |   94.73 |      100 |   85.71 |   94.73 |                   
+All files     |   98.75 |      100 |   96.77 |   98.66 |                   
  App.tsx      |      50 |      100 |      50 |      50 | 27                
+ arrays.ts    |     100 |      100 |     100 |     100 |                   
  functions.ts |     100 |      100 |     100 |     100 |                   
 --------------|---------|----------|---------|---------|-------------------
 
-Test Suites: 3 passed, 3 total
-Tests:       7 passed, 7 total
+Test Suites: 4 passed, 4 total
+Tests:       16 passed, 16 total
 Snapshots:   0 total
-Time:        3.768 s
+Time:        4.032 s
 Ran all test suites.
