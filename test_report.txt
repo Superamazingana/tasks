@@ -5,276 +5,41 @@
 Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+PASS src/nested.test.ts
 PASS src/arrays.test.ts
-  ● Console
-
-    console.log
-      [ 1, 3 ]
-
-      at bookEndList (src/arrays.ts:17:13)
-
-    console.log
-      [ 100, 200 ]
-
-      at bookEndList (src/arrays.ts:17:13)
-
-    console.log
-      [ 5, 5 ]
-
-      at bookEndList (src/arrays.ts:17:13)
-
-    console.log
-      []
-
-      at bookEndList (src/arrays.ts:17:13)
-
-    console.log
-      [ 100, 3 ]
-
-      at bookEndList (src/arrays.ts:17:13)
-
-    console.log
-      [ -100, 200 ]
-
-      at bookEndList (src/arrays.ts:17:13)
-
-    console.log
-      [ 3, 6, 9 ]
-
-      at tripleNumbers (src/arrays.ts:29:13)
-
-    console.log
-      [ 300, 900, 600 ]
-
-      at tripleNumbers (src/arrays.ts:29:13)
-
-    console.log
-      [ 15 ]
-
-      at tripleNumbers (src/arrays.ts:29:13)
-
-    console.log
-      []
-
-      at tripleNumbers (src/arrays.ts:29:13)
-
-    console.log
-      [ 300, 597, 3, -15, 21, 9 ]
-
-      at tripleNumbers (src/arrays.ts:29:13)
-
-    console.log
-      [ -300, -600, 300, 600 ]
-
-      at tripleNumbers (src/arrays.ts:29:13)
-
-    console.log
-      [ 1, 2, 3 ]
-
-      at stringsToIntegers (src/arrays.ts:43:13)
-
-    console.log
-      [ 100, 200, 300 ]
-
-      at stringsToIntegers (src/arrays.ts:43:13)
-
-    console.log
-      [ 5 ]
-
-      at stringsToIntegers (src/arrays.ts:43:13)
-
-    console.log
-      []
-
-      at stringsToIntegers (src/arrays.ts:43:13)
-
-    console.log
-      [ 100, 0, 27, 0 ]
-
-      at stringsToIntegers (src/arrays.ts:43:13)
-
-    console.log
-      [ -1, 0, 1, 0 ]
-
-      at stringsToIntegers (src/arrays.ts:43:13)
-
-    console.log
-      [ 0, 0, 0 ]
-
-      at stringsToIntegers (src/arrays.ts:43:13)
-
-    console.log
-      [ 1, 2, 3 ]
-
-      at stringsToIntegers (src/arrays.ts:43:13)
-
-    console.log
-      [ 1, 2, 3 ]
-
-      at removeDollars (src/arrays.ts:61:13)
-
-    console.log
-      [ 100, 200, 300, 400 ]
-
-      at stringsToIntegers (src/arrays.ts:43:13)
-
-    console.log
-      [ 100, 200, 300, 400 ]
-
-      at removeDollars (src/arrays.ts:61:13)
-
-    console.log
-      [ 5 ]
-
-      at stringsToIntegers (src/arrays.ts:43:13)
-
-    console.log
-      [ 5 ]
-
-      at removeDollars (src/arrays.ts:61:13)
-
-    console.log
-      [ 0 ]
-
-      at stringsToIntegers (src/arrays.ts:43:13)
-
-    console.log
-      [ 0 ]
-
-      at removeDollars (src/arrays.ts:61:13)
-
-    console.log
-      [ 100, 200, 300, 400 ]
-
-      at stringsToIntegers (src/arrays.ts:43:13)
-
-    console.log
-      [ 100, 200, 300, 400 ]
-
-      at removeDollars (src/arrays.ts:61:13)
-
-    console.log
-      []
-
-      at stringsToIntegers (src/arrays.ts:43:13)
-
-    console.log
-      []
-
-      at removeDollars (src/arrays.ts:61:13)
-
-    console.log
-      [ 100, 0, 7, 233, 0, 0 ]
-
-      at stringsToIntegers (src/arrays.ts:43:13)
-
-    console.log
-      [ 100, 0, 7, 233, 0, 0 ]
-
-      at removeDollars (src/arrays.ts:61:13)
-
-    console.log
-      [ 0, 0, 0 ]
-
-      at stringsToIntegers (src/arrays.ts:43:13)
-
-    console.log
-      [ 0, 0, 0 ]
-
-      at removeDollars (src/arrays.ts:61:13)
-
-    console.log
-      [ 'Hello', 'you', 'are', 'GREAT!' ]
-
-      at shoutIfExclaiming (src/arrays.ts:78:13)
-
-    console.log
-      [ 'OHO!', 'OHO!', 'OHO!', 'OHO!', 'OHO!' ]
-
-      at shoutIfExclaiming (src/arrays.ts:78:13)
-
-    console.log
-      [ 'Lo', 'HIGH!' ]
-
-      at shoutIfExclaiming (src/arrays.ts:78:13)
-
-    console.log
-      []
-
-      at shoutIfExclaiming (src/arrays.ts:78:13)
-
-    console.log
-      [ 'THIS ONE IS VERY LONG!' ]
-
-      at shoutIfExclaiming (src/arrays.ts:78:13)
-
-    console.log
-      [ 'No', 'Caps', 'here.' ]
-
-      at shoutIfExclaiming (src/arrays.ts:78:13)
-
-    console.log
-      5
-
-      at countShortWords (src/arrays.ts:89:13)
-
-    console.log
-      3
-
-      at countShortWords (src/arrays.ts:89:13)
-
-    console.log
-      0
-
-      at countShortWords (src/arrays.ts:89:13)
-
-    console.log
-      0
-
-      at countShortWords (src/arrays.ts:89:13)
-
-    console.log
-      0
-
-      at countShortWords (src/arrays.ts:89:13)
-
-    console.log
-      4
-
-      at countShortWords (src/arrays.ts:89:13)
-
-    console.log
-      [
-        100, 199, 1, -5,
-        300,   7, 3
-      ]
-
-      at injectPositive (src/arrays.ts:161:13)
-
-    console.log
-      [ -100, 0, -200, 100, 200 ]
-
-      at injectPositive (src/arrays.ts:161:13)
-
 PASS src/objects.test.ts
+PASS src/components/StartAttempt.test.tsx
+PASS src/components/TwoDice.test.tsx
 PASS src/functions.test.ts
-PASS src/text.test.tsx
+PASS src/components/ChangeType.test.tsx
+PASS src/components/CycleHoliday.test.tsx
+PASS src/components/Counter.test.tsx
+PASS src/components/RevealAnswer.test.tsx
 PASS src/App.test.tsx
-----------------|---------|----------|---------|---------|-------------------
-File            | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
-----------------|---------|----------|---------|---------|-------------------
-All files       |   99.11 |      100 |   97.67 |   99.07 |                   
- src            |   99.11 |      100 |   97.67 |   99.07 |                   
-  App.tsx       |      50 |      100 |      50 |      50 | 28                
-  arrays.ts     |     100 |      100 |     100 |     100 |                   
-  functions.ts  |     100 |      100 |     100 |     100 |                   
-  objects.ts    |     100 |      100 |     100 |     100 |                   
- src/interfaces |       0 |        0 |       0 |       0 |                   
-  question.ts   |       0 |        0 |       0 |       0 |                   
-----------------|---------|----------|---------|---------|-------------------
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |   98.73 |    95.29 |     100 |   98.65 |                   
+ src               |   98.51 |     94.2 |     100 |    98.4 |                   
+  App.tsx          |     100 |      100 |     100 |     100 |                   
+  arrays.ts        |     100 |      100 |     100 |     100 |                   
+  functions.ts     |     100 |      100 |     100 |     100 |                   
+  nested.ts        |    96.9 |     86.2 |     100 |   96.59 | 217,244,318       
+  objects.ts       |     100 |      100 |     100 |     100 |                   
+ src/components    |     100 |      100 |     100 |     100 |                   
+  ChangeType.tsx   |     100 |      100 |     100 |     100 |                   
+  Counter.tsx      |     100 |      100 |     100 |     100 |                   
+  CycleHoliday.tsx |     100 |      100 |     100 |     100 |                   
+  RevealAnswer.tsx |     100 |      100 |     100 |     100 |                   
+  StartAttempt.tsx |     100 |      100 |     100 |     100 |                   
+  TwoDice.tsx      |     100 |      100 |     100 |     100 |                   
+ src/interfaces    |       0 |        0 |       0 |       0 |                   
+  answer.ts        |       0 |        0 |       0 |       0 |                   
+  question.ts      |       0 |        0 |       0 |       0 |                   
+-------------------|---------|----------|---------|---------|-------------------
 
-Test Suites: 5 passed, 5 total
-Tests:       26 passed, 26 total
+Test Suites: 11 passed, 11 total
+Tests:       93 passed, 93 total
 Snapshots:   0 total
-Time:        3.726 s
+Time:        6.961 s
 Ran all test suites.
